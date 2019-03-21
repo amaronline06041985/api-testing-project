@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="tests.ApiTestingTests" skipped="0" tests="2" time="7.05" timestamp="2019-03-20T00:32:13.569-04:00[America/New_York]"><testcase classname="tests.ApiTestingTests" name="Validate posts api get functionality"/><testcase classname="tests.ApiTestingTests" name="Validate posts api  post"><failure message="expected:&lt;500&gt; but was:&lt;201&gt;" type="junit.framework.AssertionFailedError">expected:&lt;500&gt; but was:&lt;201&gt;</failure><system-err>expected:&lt;500&gt; but was:&lt;201&gt;
+junit.framework.Assert.fail(Assert.java:57)
+junit.framework.Assert.failNotEquals(Assert.java:329)
+junit.framework.Assert.assertEquals(Assert.java:78)
+junit.framework.Assert.assertEquals(Assert.java:234)
+junit.framework.Assert.assertEquals(Assert.java:241)
+steps.ApiTestingSteps.validatePostFunctionality(ApiTestingSteps.java:101)
+tests.ApiTestingTests.validatePostsApi_Post(ApiTestingTests.java:37)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</system-err></testcase></testsuite>
