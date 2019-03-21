@@ -8,8 +8,6 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import steps.ApiTestingSteps;
 import steps.ApiTestingSteps_Delete;
 import steps.ApiTestingSteps_Get;
 import steps.ApiTestingSteps_Post;
@@ -17,7 +15,6 @@ import steps.ApiTestingSteps_Put;
 
 @RunWith(SerenityRunner.class)
 public class ApiTestingTests {
-	ApiTestingSteps apitest;
 	ApiTestingSteps_Get apiTestingStepsGet;
 	ApiTestingSteps_Put apiTestingStepsPut;
 	ApiTestingSteps_Post apiTestingStepsPost;
